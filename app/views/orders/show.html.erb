@@ -4,6 +4,36 @@
     <h1>Order #<%= @order.id %></h1>
   </header>
 
+  <h2>Order Details:</h2>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @order.line_items.each do |line_item| %>
+        <tr>
+          <td><%= image_tag line_item.product.image.url %></td>
+          <td><%= line_item.product.name %></td>
+          <td><%= line_item.product.description %></td>
+          <td><%= line_item.quantity %></td>
+          <td>$<%= line_item.total_price %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <div>
+    <p><strong>Total:</strong> $<%= @order.total %></p>
+    <p><strong>Email:</strong> <%= @order.email %></p>
+  </div>
+
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
   </div>
