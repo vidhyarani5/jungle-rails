@@ -49,8 +49,9 @@
     </div>
   </div>
 <% else %>
-  <div class="alert alert-danger">
-    Hello Your Cart is EMPTY!!!!!! 
-  </div>
+<div>
+  <p class="alert alert-danger">Your cart is empty.</p>
+  <%= link_to "Continue Shopping...", root_path, class: 'btn btn-lg btn-primary' %>
+</div>
 <% end %> 
 </section>
