@@ -3,7 +3,7 @@
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
 ### Homepage
-!["View homepage"](https://github.com/vidhyrani5/jungle-rails/blob/master/public/images/home.png)
+!["View homepage"](https://github.com/vidhyarani5/jungle-rails/blob/master/public/images/home.png)
 
 ### Products
 View all products on the homepage
