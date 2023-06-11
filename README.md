@@ -7,23 +7,23 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ### Products
 View all products on the homepage
-!["View all products on homepage"](https://github.com/vidhyrani5/jungle-rails/blob/master/public/images/products.png)
+!["View all products on homepage"](https://github.com/vidhyarani5/jungle-rails/blob/master/public/images/products.png)
 
 ### Product details
 View an individual product and it's details
-!["View individual product"](https://github.com/vidhyrani5/jungle-rails/blob/master/public/images/item.png)
+!["View individual product"](https://github.com/vidhyarani5/jungle-rails/blob/master/public/images/item.png)
 
 ### Shopping cart
 View your shopping cart
-!["View shopping cart"](https://github.com/vidhyrani5/jungle-rails/blob/master/public/images/cart.png)
+!["View shopping cart"](https://github.com/vidhyarani5/jungle-rails/blob/master/public/images/cart.png)
 
 ### Payment
 Enter payment details
-!["View payment modal"](https://github.com/vidhyrani5/jungle-rails/blob/master/public/images/payment.png)
+!["View payment modal"](https://github.com/vidhyarani5/jungle-rails/blob/master/public/images/payment.png)
 
 ### Order details
 View your order details and confirmation
-!["View purchase details"](https://github.com/vidhyrani5/jungle-rails/blob/master/public/images/order_details.png)
+!["View purchase details"](https://github.com/vidhyarani5/jungle-rails/blob/master/public/images/order_details.png)
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
